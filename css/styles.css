@@ -1,0 +1,93 @@
+/* Navigation */
+.pet-nav {
+    display: block;
+    border-bottom: 5px black;
+    background-color: lightgray;
+    
+
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: dimgray;
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 1px;
+    color: white;
+    border: 1px black;
+}
+
+/* Sidebar */
+.left {
+    float: left;
+    width: 20%;
+
+}
+
+.intro {
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 50px;
+    border-color: black;
+    text-align: center;
+}
+
+.intro img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Hero Section */
+.right {
+    float: right;
+    width: 70%;
+    padding-left: 10%;
+    background-color: rgb(240, 239, 239);
+}
+
+.hero-section {
+    display: inline-block;
+    width: 1200px;
+    height: 70%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.hero-section h2 {
+    text-align: center;
+}
+
+.hero-section img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+/* Gallery */
+.gallery {
+    display: inline-block;
+    width: 1200px;
+    height: 70%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.gallery img {
+    display: inline-block;
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    
+}
