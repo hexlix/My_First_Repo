@@ -16,14 +16,13 @@
     text-align: center;
     margin: 1px;
     color: white;
-    border: 1px black;
+    border: 1px solid black;
 }
 
 /* Sidebar */
 .left {
     float: left;
     width: 20%;
-
 }
 
 .intro {
@@ -33,9 +32,17 @@
     height: 200px;
     padding: 10px;
     margin: 5px;
-    border: 50px;
-    border-color: black;
     text-align: center;
+    border: 1px solid black;
+}
+
+.stats {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-top: 0;
 }
 
 .intro img {
@@ -46,7 +53,7 @@
 /* Hero Section */
 .right {
     float: right;
-    width: 70%;
+    width: 69.8%;
     padding-left: 10%;
     background-color: rgb(240, 239, 239);
 }
